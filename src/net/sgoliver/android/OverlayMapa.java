@@ -31,7 +31,7 @@ public class OverlayMapa extends Overlay {
 			Point centro = new Point();
 			projection.toPixels(geoPoint, centro);
 
-			//Definimos el pincel de dibujo
+			//Pincel de dibujo
 			Paint p = new Paint();
 			p.setColor(Color.BLUE);
 			
